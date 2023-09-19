@@ -1,0 +1,413 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0f4f7d;
+  font-family: Poppins;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto auto;
+}
+
+.child_container_one {
+  width: 610px;
+  height: 800px;
+  top: 50px;
+  left: 105px;
+  border-radius: 31px;
+  background: #ffffff;
+  margin-top: 30px;
+}
+
+.img_one {
+  width: 150px;
+  height: 51px;
+  top: 76px;
+  left: 130px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.content h2 {
+  width: 254px;
+  height: 78px;
+  top: 197px;
+  left: 285px;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 180px;
+}
+
+.content p {
+  width: 409px;
+  height: 126px;
+  top: 295px;
+  left: 205px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.img_two {
+  width: 593px;
+  height: 549px;
+  top: 442px;
+  left: 115px;
+}
+
+.child_container_two {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  padding-left: 5%;
+}
+
+.content h3 {
+  width: 533px;
+  height: 96px;
+  top: 293px;
+  left: 813px;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+#p1 {
+  width: 533px;
+  height: 36px;
+  top: 411px;
+  left: 813px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #eeeeee;
+  padding-left: 5px;
+}
+input {
+  width: 527px;
+  height: 60px;
+  top: 497px;
+  left: 807px;
+  border-radius: 8px;
+  border: 1.5px solid #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+#p2 {
+  width: 479px;
+  height: 30px;
+  top: 570px;
+  left: 833px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #eeeeee;
+  padding-left: 15px;
+}
+.content button {
+  width: 527px;
+  height: 60px;
+  top: 660px;
+  left: 807px;
+  border-radius: 8px;
+  border: 1.5px;
+  border: 1.5px solid #ffffff;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .main_container {
+    width: 90%;
+  }
+  .child_container_one {
+    margin-left: 0;
+    width: 45%;
+  }
+  #img-2 {
+    width: 70%;
+    height: 70%;
+    margin-top: 10%;
+  }
+  .content h2 {
+    width: 90%;
+    margin-left: 0;
+    font-size: 40px;
+    padding-left: 2%;
+    margin-top: 15px;
+  }
+  .content p {
+    width: 90%;
+    font-size: 28px;
+    padding-left: 25px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main_container {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+  }
+  .child_container_one {
+    margin-left: 0;
+    width: 40%;
+  }
+  #img-2 {
+    width: 45%;
+    height: 45%;
+    margin-top: 20%;
+  }
+  .content h2 {
+    width: 90%;
+    margin-left: 0;
+    font-size: 40px;
+    padding-left: 2%;
+    margin-top: 15px;
+  }
+  .content p {
+    width: 90%;
+    font-size: 28px;
+    padding-left: 25px;
+    margin-top: 40px;
+  }
+  .child_container_two {
+    width: 40%;
+  }
+  .content h3 {
+    width: 80%;
+    padding-left: 15%;
+    font-size: xx-large;
+  }
+  input {
+    width: 60%;
+    margin-left: 20%;
+  }
+  #p2 {
+    font-size: 18px;
+    margin-left: 3%;
+  }
+  .content button {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    background-image: linear-gradient(
+        45deg,
+        rgba(12, 12, 12, 0.705),
+        rgb(3, 43, 84)
+      ),
+      url(senior-woman-taking-online-class-her-laptop-home\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .main_container {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .child_container_one {
+    display: none;
+  }
+  .child_container_two {
+    width: 100%;
+  }
+  .img_three {
+    width: 60%;
+    height: 21px;
+    top: 50px;
+    left: 30px;
+    margin-left: 5%;
+    margin-bottom: 40%;
+  }
+  .content h3 {
+    width: 100%;
+    padding-left: 5%;
+    font-size: 24px;
+  }
+  #p1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  input {
+    width: 285px;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  #p2 {
+    width: 90%;
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .content button {
+    width: 285px;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  body {
+    background-image: linear-gradient(
+        45deg,
+        rgba(12, 12, 12, 0.705),
+        rgb(3, 43, 84)
+      ),
+      url(senior-woman-taking-online-class-her-laptop-home\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .main_container {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .child_container_one {
+    display: none;
+  }
+  .child_container_two {
+    width: 100%;
+  }
+  .img_three {
+    width: 60%;
+    height: 21px;
+    top: 50px;
+    left: 30px;
+    margin-left: 5%;
+    margin-bottom: 40%;
+  }
+  .content h3 {
+    width: 100%;
+    padding-left: 5%;
+    font-size: 24px;
+  }
+  #p1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  input {
+    width: 285px;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  #p2 {
+    width: 90%;
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .content button {
+    width: 285px;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  body {
+    background-image: linear-gradient(
+        45deg,
+        rgba(12, 12, 12, 0.705),
+        rgb(3, 43, 84)
+      ),
+      url(senior-woman-taking-online-class-her-laptop-home\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .main_container {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .child_container_one {
+    display: none;
+  }
+  .child_container_two {
+    width: 100%;
+  }
+  .img_three {
+    width: 60%;
+    height: 21px;
+    top: 50px;
+    left: 30px;
+    margin-left: 5%;
+    margin-bottom: 40%;
+  }
+  .content h3 {
+    width: 100%;
+    padding-left: 5%;
+    font-size: 24px;
+  }
+  #p1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  input {
+    width: 245px;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  #p2 {
+    width: 90%;
+    font-size: 16px;
+    padding-left: 0;
+    margin-left: 7%;
+  }
+  .content button {
+    width: 245px;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2707px) {
+  .img_three {
+    display: none;
+  }
+}
